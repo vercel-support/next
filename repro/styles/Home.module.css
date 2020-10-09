@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Prospectus';
+  src: url(/Prospectus-S-Black.woff2) format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-synthesis: none;
+  font-display: block;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -8,6 +17,7 @@
 }
 
 .main {
+  font-family: Prospectus;
   padding: 5rem 0;
   flex: 1;
   display: flex;
